@@ -41,11 +41,6 @@
     cursor: pointer;
   }
 
-  .header__login {
-    display: flex;
-    align-items: center;
-  }
-
   .header__search {
     display: flex;
     align-items: center;
@@ -61,6 +56,11 @@
     width: 16px;
     height: 16px;
     margin-left: 10px;
+  }
+
+  .header__login {
+    display: flex;
+    align-items: center;
   }
 
   .header__search input {
@@ -153,12 +153,12 @@
 /* FIM SCROLL */
 
 .offer__list-item {
-  /* display: grid;
+  display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 16px;
   gap: 16px;
-  margin-bottom: 16px; */
+  margin-bottom: 16px; 
 
   /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
   display: grid;  /* define o modelo de layout do elemento como uma grade */
